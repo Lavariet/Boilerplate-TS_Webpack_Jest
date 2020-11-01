@@ -1,0 +1,1 @@
+Boilerplate for Typescript coupled with Webpack and Jest

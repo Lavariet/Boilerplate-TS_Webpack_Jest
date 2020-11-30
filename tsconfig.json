@@ -4,8 +4,13 @@
     "module": "ESNEXT",
     // "declaration": true,
     "sourceMap": true,
+    "jsx": "preserve",
     "outDir": "./dist",
     "rootDir": "./src",
+      /* paths - If you configure Snowpack import aliases, add them here. */
+    "paths": {},
+    /* noEmit - Snowpack builds (emits) files, not tsc. */
+    "noEmit": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
